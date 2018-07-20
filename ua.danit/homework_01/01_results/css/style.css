@@ -1,0 +1,73 @@
+
+body {
+    background-color: gainsboro;
+}
+
+#borderMain {
+    width: 1280px;
+    height: 1450px;
+    border-width: medium;
+    border-color: crimson;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 5px;
+}
+ul {
+    font-family: Roboto, Arial ;
+    color:  #16a085;
+    font-size: 18px;
+    font-weight: 900;
+    /*line-height: 400px;*/
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    }
+ul li{
+    display: inline;
+    margin: 0 30px;
+}
+h1 {
+    font-family: Roboto, Arial;
+    color:  #373737;
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 0;
+}
+p {
+    font-family: Roboto, Arial;
+    color:  #373737;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+img {
+    width: 1280px;
+    height: 790px;
+}
+#borderText {
+    width: 1280px;
+    height: 530px;
+    background-color: rgb(245, 246, 247);
+}
+button {
+    border-radius: 3px;
+    background-color:  #16a085;
+    width: 192px;
+    height: 51px;
+    margin-left: 540px;
+    /*margin-right: auto;*/
+}
+#copyright * {
+    font-family: Roboto, Arial;
+    color:  #373737;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: right;
+}
