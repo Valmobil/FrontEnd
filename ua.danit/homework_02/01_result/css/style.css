@@ -1,0 +1,67 @@
+.container {
+    width: 1480px;
+    height: 1282px;
+    background-color: gainsboro;
+}
+
+.content-alignment {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-alignment a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+span {
+    font-family: 'Myriad Pro';
+    color: #000000;
+    font-size: 80px;
+    font-weight: 400;
+    text-align: center;
+}
+
+p {
+    font-family: 'Myriad Pro';
+    color: #4bcaff;
+    font-size: 80px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 20;
+}
+
+.conteiner a:link {
+    text-decoration: none;
+}
+
+.gorizontal-list {
+    background-color: #35444f;
+    height: 69px;
+    font-family: 'Myriad Pro';
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.gorizontal-list ul {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    line-height: 69px;
+}
+
+.gorizontal-list li{
+    display: inline;
+    height: 69px;
+    margin: 20px 42px;
+    padding: 20px;
+}
+.gorizontal-list li:nth-child(2) {
+    background-color: #222f3a;
+}
