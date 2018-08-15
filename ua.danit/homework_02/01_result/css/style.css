@@ -64,7 +64,7 @@ p {
 }
 
 .gorizontal-menu li:hover {
-background-color: #222f3a;
+    background-color: #222f3a;
 }
 
 .main-block {
@@ -72,67 +72,53 @@ background-color: #222f3a;
     background-color: black;
 }
 
-.main-block div {
-    clear:both;
-    font-size:1px;
-}
-
-/*span .vertical {*/
-/*display: inline-block;*/
-/*width: 50%;*/
-/*}*/
-/*span {*/
-/*padding: 0;*/
-/*margin: 0;*/
-/*}*/
-
 .vertical-menu {
-/*display: table-cell;*/
-display: inline-block;
-border-width: 5px;
-border-color: black;
-width: 344px;
-height: 399px;
-background-color: #4bcaff;
-margin: 0;
-padding: 0;
+    display: inline-block;
+    float: left;
+    width: 344px;
+    height: 394px;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .vertical-menu ul {
-list-style-type: none;
-padding: 0;
-margin: 0;
-}
-
-.vertical-menu li {
-font-family: 'Myriad Pro';
-color: #485863;
-font-size: 27px;
-font-weight: 400;
-line-height: 84px;
-text-align: left;
-padding-left: 30px;
-}
-
-.vertical-menu li:hover {
-background-color: darkgrey;
-}
-
-.vertical-menu ul ul li {
-padding-left: 60px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .image-block {
-display: inline-block;
-vertical-align: middle;
-text-align: center;
-width: 885px;
-height: 529px;
-background-color: #16a085;
+    float: left;
+    width: 885px;
+    height: 529px;
+    margin-left: 40px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
 }
 
-/*img {*/
+.vertical-menu li {
+    font-family: 'Myriad Pro', serif;
+    color: #485863;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: left;
+    padding-left: 30px;
+}
 
-/*top: auto;*/
-/*left: auto;*/
-/*}*/
+.vertical-menu li:hover {
+    background-color: darkgrey;
+}
+
+.vertical-menu ul ul li {
+    padding-left: 60px;
+}
+
+img {
+    vertical-align: middle;
+    top: 50%;
+    margin-top: 75px; /* Half the height */
+}
