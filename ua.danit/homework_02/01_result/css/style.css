@@ -123,6 +123,11 @@ img {
     margin-top: 75px; /* Half the height */
 }
 
+img:hover {
+    transform: scale(1.1, 1.1); /** default is 1, scale it to 1.5 */
+    opacity: 1;
+}
+
 .text-block {
     float: left;
     display: block;
