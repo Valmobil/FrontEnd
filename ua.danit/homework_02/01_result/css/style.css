@@ -121,6 +121,7 @@ img {
     vertical-align: middle;
     top: 50%;
     margin-top: 75px; /* Half the height */
+    transition: 0.5s ease;
 }
 
 img:hover {
