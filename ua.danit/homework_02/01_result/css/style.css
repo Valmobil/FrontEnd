@@ -19,7 +19,7 @@ h1 {
 }
 
 span {
-    font-family: 'Myriad Pro';
+    font-family: 'Myriad Pro', serif;
     color: #000000;
     font-size: 80px;
     font-weight: 400;
@@ -27,12 +27,12 @@ span {
 }
 
 p {
-    font-family: 'Myriad Pro';
+    font-family: 'Myriad Pro', serif;
     color: #4bcaff;
     font-size: 80px;
     font-weight: 400;
     text-align: left;
-    margin-bottom: 20;
+    margin-bottom: 20px;
 }
 
 .conteiner a:link {
@@ -42,7 +42,7 @@ p {
 .gorizontal-menu {
     background-color: #35444f;
     height: 69px;
-    font-family: 'Myriad Pro';
+    font-family: 'Myriad Pro', serif;
     color: #ffffff;
     font-size: 24px;
     font-weight: 400;
@@ -121,4 +121,22 @@ img {
     vertical-align: middle;
     top: 50%;
     margin-top: 75px; /* Half the height */
+}
+
+.text-block {
+    float: left;
+    display: block;
+    margin-left: 420px;
+    margin-top: 10px;
+    width: 815px;
+    height: 114px;
+}
+
+.text-block p {
+    font-family: "Myriad Pro", serif;
+    color:  black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
