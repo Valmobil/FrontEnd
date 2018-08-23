@@ -98,7 +98,11 @@ body {
     height: 200px;
     padding-bottom: 69px;
     text-align: center;
-
+}
+.photo-block img {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+    border-image-slice: 1;
 }
 
 .photo-block .photo-name {
@@ -111,7 +115,7 @@ body {
 .photo-block .price-block {
     position: relative;
     top: -121px;
-    width: 308px;
+    width: 314px;
     height: 63px;
     background-color: #f26522;
     text-align: left;
