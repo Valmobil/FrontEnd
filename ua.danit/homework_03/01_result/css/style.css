@@ -14,12 +14,17 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    vertical-align: baseline;
+    vertical-align: top;
     padding-top: 49px;
 }
 
 .logo {
     width: 200px;
+
+}
+
+.logo img:nth-of-type(2) {
+    display: none;
 }
 
 .logo img {
@@ -28,16 +33,12 @@ body {
     height: 44px;
 }
 
-.phone-block {
-    display: inline-block;
-}
-
 .logo h1, h3 {
     float: left;
     font-family: Verdana;
     color: #ffffff;
     line-height: 21px;
-    padding-left: 6px;
+    padding-left: 12px;
     margin: 0;
 }
 
@@ -48,8 +49,32 @@ body {
 
 .logo h3 {
     font-size: 18px;
-    padding-top: 6px;
+    padding-top: 8px;
 }
+
+.logo:hover h1{
+    color: #f26522;
+}
+
+.logo:hover h3{
+    color: #f26522;
+}
+
+.logo:hover img:nth-of-type(1) {
+    display: none;
+}
+
+.logo:hover img:nth-of-type(2) {
+    display: block;
+}
+
+
+
+.phone-block {
+    display: inline-block;
+}
+
+
 
 .phone-block p {
     font-family: Verdana;
@@ -62,6 +87,7 @@ body {
 
 .photogreed {
     padding-top: 48px;
+    padding-bottom: 27px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -83,21 +109,14 @@ body {
 }
 
 .photo-block .price-block {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
     position: relative;
-    top: -58px;
+    top: -121px;
     width: 308px;
-    height: 0px;
+    height: 63px;
     background-color: #f26522;
-
+    text-align: left;
+    display: none;
 }
-
-/*@keyframes fadein {*/
-    /*from { opacity: 0; }*/
-    /*to   { opacity: 1; }*/
-/*}*/
 
 .price-block-from {
     font-family: Verdana;
@@ -111,14 +130,16 @@ body {
 }
 
 .price-block-price {
-    font-size: 14px;
+    font-size: 20px;
     color: #ffffff;
     position: relative;
 }
 
 .photo-block:hover .price-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 63px;
-    top: -121px;
     animation:fade linear alternate 0.5s;
 }
 
@@ -160,4 +181,6 @@ small {
     font-family: Verdana;
     color: #ffffff;
     font-size: 12px;
+    padding-top: 60px;
+
 }

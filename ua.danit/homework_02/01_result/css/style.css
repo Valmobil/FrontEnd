@@ -1,13 +1,13 @@
 .container {
     width: 1480px;
     height: 1282px;
-    background-color: gainsboro;
+    background-color: whitesmoke;
+    margin: 0 auto;
 }
 
 .content-alignment {
     width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .content-alignment a {
@@ -41,7 +41,6 @@ p {
 
 .gorizontal-menu {
     background-color: #35444f;
-    height: 69px;
     font-family: 'Myriad Pro', serif;
     color: #ffffff;
     font-size: 24px;
@@ -73,7 +72,6 @@ p {
 }
 
 .vertical-menu {
-    display: inline-block;
     float: left;
     width: 344px;
     height: 394px;
@@ -103,9 +101,7 @@ p {
     font-family: 'Myriad Pro', serif;
     color: #485863;
     font-size: 27px;
-    font-weight: 400;
     line-height: 80px;
-    text-align: left;
     padding-left: 30px;
 }
 
@@ -125,7 +121,7 @@ img {
 }
 
 img:hover {
-    transform: scale(1.1, 1.1); /** default is 1, scale it to 1.5 */
+    transform: scale(1.1, 1.1);
     opacity: 1;
 }
 
@@ -135,7 +131,6 @@ img:hover {
     margin-left: 420px;
     margin-top: 10px;
     width: 815px;
-    height: 114px;
 }
 
 .text-block p {
@@ -145,4 +140,38 @@ img:hover {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+}
+
+.bottom-gorizontal-menu {
+    float: left;
+    height: 69px;
+    width: 1280px;
+    background-color:rgb(181, 184, 187);
+    font-family: 'Myriad Pro', serif;
+}
+
+.bottom-gorizontal-menu ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.bottom-gorizontal-menu li {
+    display: inline;
+    padding-left: 30px;
+    font-family: 'Myriad Pro';
+    color:  #0c1927;
+    font-size: 28px;
+}
+
+.bottom-gorizontal-menu p {
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+    font-family: 'Myriad Pro';
+    color:  #010000;
+    font-size: 24px;
+}
+.bottom-gorizontal-menu li:hover {
+    color: #3181a6;
+    text-decoration: underline;
 }
