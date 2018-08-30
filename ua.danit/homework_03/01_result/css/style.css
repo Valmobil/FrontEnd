@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Verdana';
-    url("../font/Verdana.ttf") format('truetype');
+    src: url("../font/Verdana.ttf") format('truetype');
 }
 
 body {
@@ -40,7 +40,6 @@ body {
 
 .logo h1, h3 {
     float: left;
-    font-family: Verdana;
     color: #ffffff;
     line-height: 21px;
     padding-left: 12px;
@@ -82,7 +81,6 @@ body {
 
 
 .phone-block p {
-    font-family: Verdana;
     color: #ffffff;
     font-size: 18px;
     line-height: 5px;
@@ -111,7 +109,6 @@ body {
 }
 
 .photo-block .photo-name {
-    font-family: Verdana;
     color: #ffffff;
     font-size: 18px;
     /*animation: fade .5s linear forwards;*/
@@ -128,7 +125,6 @@ body {
 }
 
 .price-block-from {
-    font-family: Verdana;
     color: #ffffff;
     font-size: 10px;
     padding-left: 10px;
@@ -163,7 +159,6 @@ body {
 
 
 .photo-block div a {
-    font-family: Verdana;
     color: #ffffff;
     font-size: 12px;
     padding-right: 10px;
@@ -175,19 +170,7 @@ body {
     color: #f26522;
 }
 
-/*.photo-block:hover .price-block-from {*/
-    /*font-size: 10px;*/
-/*}*/
-
-/*.photo-block:hover .price-block-price {*/
-    /*font-size: 20px;*/
-/*}*/
-/*.photo-block:hover div a {*/
-    /*font-size: 14px;*/
-/*}*/
-
 small {
-    font-family: Verdana;
     color: #ffffff;
     font-size: 12px;
     padding-top: 60px;
