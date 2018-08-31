@@ -1,0 +1,117 @@
+* {
+    font-family: 'Arimo';
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+table {
+    border: rgb(55, 71, 101) solid 25px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: lightgrey solid 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 277px;
+    height: 69px;
+    color:  #848484;
+    vertical-align: center;
+}
+
+th {
+    color: black;
+}
+
+tr:first-child th:nth-of-type(1) {
+    font-size: 18px;
+}
+
+tr:first-child th:nth-of-type(1) p {
+    font-size: 30px;
+    margin: 0;
+}
+
+tr:first-child th:nth-of-type(2) {
+    background-color: #89c331;
+    font-size: 24px;
+    color: white;
+}
+
+tr:first-child th:nth-of-type(3) {
+    background-color: #f04a56;
+    font-size: 30px;
+    color: white;
+}
+
+tr:first-child th:nth-of-type(4) {
+    background-color: #20807c;
+    font-size: 24px;
+    color: white;
+}
+
+tr:nth-child(2) th:nth-of-type(1) {
+    /*text-align: ;*/
+}
+
+th .price {
+    margin-left: 40px;
+    float: left;
+    font-size: 60px;
+}
+th .coins {
+    float: left;
+    margin-top: 10px;
+    font-size: 24px;
+}
+th .permonth {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e3e3e3;
+}
+tr:nth-of-type(1) th:nth-of-type(1) {
+    background-color:  #fafafa;
+}
+tr:nth-of-type(2) th {
+    background-color: white;
+}
+
+i {
+    font-size: 1.5em;
+}
+
+button {
+    border-radius: 5px;
+    background-color:  #484848;
+    width: 192px;
+    height: 49px;
+    color: white;
+    text-transform: uppercase;
+}
+tr:nth-of-type(9) td:nth-of-type(1) {
+    background-color: #dedede
+}
+
+tr:nth-of-type(9) td:nth-of-type(2) button {
+    background-color:  #89c331;
+}
+tr:nth-of-type(9) td:nth-of-type(3) button {
+    background-color:  #f04a56;
+}
+tr:nth-of-type(9) td:nth-of-type(4) button {
+    background-color:  #20807c;
+}
