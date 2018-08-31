@@ -1,5 +1,5 @@
 * {
-    font-family: 'Arimo';
+    font-family: 'Arimo', serif;
 }
 
 body {
@@ -102,6 +102,11 @@ button {
     color: white;
     text-transform: uppercase;
 }
+
+button:hover {
+    box-shadow: 5px 5px 2px grey;
+}
+
 tr:nth-of-type(9) td:nth-of-type(1) {
     background-color: #dedede
 }
