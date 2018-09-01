@@ -57,10 +57,6 @@ tr:first-child th:nth-of-type(4) {
     color: white;
 }
 
-tr:nth-child(2) th:nth-of-type(1) {
-    /*text-align: ;*/
-}
-
 th .price {
     margin-left: 40px;
     float: left;
@@ -103,20 +99,25 @@ button {
     text-transform: uppercase;
 }
 
+
 button:hover {
-    box-shadow: 5px 5px 2px grey;
+    box-shadow: 3px 3px 10px 5px darkgray, 0 0 4px rgba(132, 132, 132, .5) inset;
 }
 
 tr:nth-of-type(9) td:nth-of-type(1) {
-    background-color: #dedede
+    background-color: #dedede;
+    border-bottom: #404040 solid 7px;
 }
 
 tr:nth-of-type(9) td:nth-of-type(2) button {
     background-color:  #89c331;
+    border-bottom: #79b027 solid 7px;
 }
 tr:nth-of-type(9) td:nth-of-type(3) button {
     background-color:  #f04a56;
+    border-bottom: #df3a46 solid 7px;
 }
 tr:nth-of-type(9) td:nth-of-type(4) button {
     background-color:  #20807c;
+    border-bottom: #16736f solid 7px;
 }
