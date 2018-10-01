@@ -1,0 +1,26 @@
+table {
+    border: darkgray solid 18px;
+    border-collapse: collapse;
+    width: 510px;
+    height: 810px;
+}
+
+td{
+    border: darkgray solid 8px;
+}
+
+.black {
+    background-color: black;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.blue {
+    background: blue;
+}
+
+.red {
+    background: red;
+}
