@@ -14,6 +14,7 @@ body {
 .container {
     margin: 0 auto;
     width: 1200px;
+    text-align: center;
 }
 
 .section-header__title {
@@ -59,7 +60,34 @@ body {
     height: 129px;
 }
 
+/*What they say About Us*/
+.section-what-they-say-about {
+  height: 372px;
+}
 
 
+.heading-text {
+    position: relative;
+    padding-top: 112px;
+    color: #333333;
+    font-size: 22px;
+    font-weight: 700;
+}
+.heading-text::after {
+    display: block;
+    position: absolute;
+    top: 270px;
+    left: calc(50% - 30px);
+    content: "";
+    height: 3px;
+    width: 60px;
+    background-color:  #f1ad1d;
+}
+.what-they-say__main-text {
+    padding-top: 35px;
+    font-family: Lato;
+    color: #4d4943;
+    font-size: 17px;
+}
 
-372px
+/*We Change Ideas To Realities*/
