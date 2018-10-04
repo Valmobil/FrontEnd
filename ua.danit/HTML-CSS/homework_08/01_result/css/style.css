@@ -1,12 +1,10 @@
-body {
+* {
     font-family: Montserrat;
-
 }
 
 .section-header {
-    background-size: cover;
-    background-color: magenta;
     background-image: url('../img/bg1.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     height: 900px;
 }
@@ -91,3 +89,12 @@ body {
 }
 
 /*We Change Ideas To Realities*/
+.section-we-change-ideas {
+    background-image: url("../img/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -340px;
+    height: 380px;
+}
+
+
