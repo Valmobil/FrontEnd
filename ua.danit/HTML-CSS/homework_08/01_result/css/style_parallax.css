@@ -2,16 +2,30 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
+.parallax {
+    perspective: 2px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 /*Common selectors*/
 .section-common {
     position: relative;
+    overflow: hidden;
+
 }
 
 .container {
     margin: 0 auto;
     width: 1200px;
     text-align: center;
-    /*transform: translateZ(0);*/
+    overflow: hidden;
+}
+
+
+.orange-text-part {
+    color: #f1ad1d;
 }
 
 .section-background {
@@ -22,13 +36,10 @@ body {
     left: 0;
     width: 100%;
     z-index: -1;
-    /*background-attachment: fixed;*/
-    /*transform: translateZ(-5px);*/
+    transform: translateZ(-1px) scale(2);
 }
 
-.orange-text-part {
-    color: #f1ad1d;
-}
+
 /*Header section*/
 
 .section-header-background {
@@ -116,7 +127,7 @@ body {
 }
 
 /*We Change Ideas To Realities*/
-.section-we-change-ideas {
+.section-we-change-ideas-background {
     background-image: url("../img/bg2.jpg");
     height: 380px;
 }
@@ -131,14 +142,14 @@ body {
 }
 
 /*We are featured on*/
-.section-we-are-featured-on {
+.section-we-are-featured-on-background {
     background-image: url("../img/bg3.jpg");
     height: 475px;
-    margin: 0 auto;
 }
 
 .section-we-are-featured-on-container {
     height: 475px;
+    margin: 0 auto;
 }
 
 .section-we-are-featured-on__heading {
@@ -168,10 +179,10 @@ body {
 }
 
 /*Check what said our bird*/
-.section-check-what-said {
+.section-check-what-said-background {
     background-image: url("../img/bg4.jpg");
+    background-position: -100px;
     height: 485px;
-    margin: 0 auto;
 }
 
 .section-check-what-said-container {
@@ -200,3 +211,4 @@ body {
     margin: 0 auto;
     margin-top: 3em;
 }
+
