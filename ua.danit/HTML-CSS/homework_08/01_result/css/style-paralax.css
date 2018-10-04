@@ -2,6 +2,34 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
+.parallax {
+    /*height: 100vh;*/
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*-webkit-perspective: 1px;*/
+    perspective: 1px;
+}
+
+.parallax__layer {
+    position: absolute;
+    /*top: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*//padding: 100vh 0;*/
+}
+
+.parallax__layer--base {
+    /*-webkit-transform: translateZ(0);*/
+    transform: translateZ(0);
+}
+
+.parallax__layer--back {
+    /*-webkit-transform: translateZ(-1px);*/
+    transform: translateZ(-1px);
+}
+
+
 .section-header {
     background-image: url('../img/bg1.jpg');
     height: 900px;
@@ -15,10 +43,11 @@ body {
 }
 
 .section-background {
+    perspective: 1px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    /*transform: translateZ(-5px);*/
+    /*background-attachment: fixed;*/
+    /*transform: translateZ(-1px);*/
 }
 
 .orange-text-part {
