@@ -1,0 +1,202 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+/*Common selectors*/
+.section-common {
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+    /*transform: translateZ(0);*/
+}
+
+.section-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    /*background-attachment: fixed;*/
+    /*transform: translateZ(-5px);*/
+}
+
+.orange-text-part {
+    color: #f1ad1d;
+}
+/*Header section*/
+
+.section-header-background {
+    background-image: url('../img/bg1.jpg');
+    height: 900px;
+}
+
+.section-header-container {
+    height: 900px;
+}
+
+.section-header__title {
+    padding-top: 530px;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.section-header__about {
+    padding-top: 16px;
+    padding-bottom: 28px;
+    font-family: Lato, sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+
+.section-header__text-we {
+    float: left;
+    color: #f1ad1d;
+    font-size: 54px;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    line-height: 130px;
+    width: 152px;
+    height: 129px;
+}
+
+.section-header__text-main {
+    text-transform: uppercase;
+    padding-left: 18px;
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 700;
+    float: left;
+    line-height: 130px;
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, .5);
+    width: 831px;
+    height: 129px;
+}
+
+/*What they say About Us*/
+.section-white-block {
+    height: 372px;
+}
+
+.heading-text {
+    position: relative;
+    padding-top: 7em;
+    color: #333333;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.heading-text::after {
+    display: block;
+    position: absolute;
+    top: 240px;
+    left: calc(50% - 30px);
+    content: "";
+    height: 3px;
+    width: 60px;
+    background-color: #f1ad1d;
+}
+
+.heading-text__paragraph {
+    padding-top: 35px;
+    font-family: Lato, sans-serif;
+    color: #4d4943;
+    font-size: 17px;
+}
+
+/*We Change Ideas To Realities*/
+.section-we-change-ideas {
+    background-image: url("../img/bg2.jpg");
+    height: 380px;
+}
+
+.section-we-change-ideas-container {
+    height: 380px;
+}
+
+.section-we-change-ideas__heading {
+    color: white;
+    text-transform: uppercase;
+}
+
+/*We are featured on*/
+.section-we-are-featured-on {
+    background-image: url("../img/bg3.jpg");
+    height: 475px;
+    margin: 0 auto;
+}
+
+.section-we-are-featured-on-container {
+    height: 475px;
+}
+
+.section-we-are-featured-on__heading {
+    color: white;
+    text-transform: uppercase;
+}
+
+.section-we-are-featured-on__magazines {
+    padding-top: 7em;
+    text-align: center;
+}
+
+.section-we-are-featured-on-magazines__item {
+    padding: 3em;
+}
+
+.section-we-are-featured-on-magazines__item:nth-of-type(2) {
+    margin: -13px;
+}
+
+.section-we-are-featured-on-magazines__item:nth-of-type(3) {
+    margin: -8px;
+}
+
+.section-we-are-featured-on-magazines__item:nth-of-type(4) {
+    margin: -20px;
+}
+
+/*Check what said our bird*/
+.section-check-what-said {
+    background-image: url("../img/bg4.jpg");
+    height: 485px;
+    margin: 0 auto;
+}
+
+.section-check-what-said-container {
+    height: 485px;
+}
+.section-check-what-said__heading {
+    color: white;
+    text-transform: uppercase;
+}
+
+.section-check-what-said__paragraph {
+    display: inline-block;
+    padding-top: 7em;
+    width: 41em;
+    /*font-family: OpenSans;*/
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 28px;
+
+}
+
+.section-section-check-what-said__line {
+    background-color: #ffffff;
+    width: 200px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 3em;
+}
