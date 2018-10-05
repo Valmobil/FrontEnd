@@ -1,0 +1,112 @@
+
+@font-face {
+    font-family: "FuturaBT";
+    src: url("font/FuturaBT-Bold.ttf");
+}
+
+.parallax {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.section-common {
+    position: relative;
+    width: 100%;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.background-image__transparency{
+    background-color: black;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.section-we-create-responsive__image {
+    height: 780px;
+    background-image: url("../img/bg1.jpg");
+    clip-path: polygon(100% 84%, 50% 100%, 0 84%, 0 0, 50% 0, 100% 0);
+    /*clip-path: polygon(100% 84%, 50% 100%, 0 84%, 0 0, 50% 16%, 100% 0);*/
+}
+
+
+.section-we-create-responsive {
+    height: 780px;
+    /*clip-path: polygon(100% 84%, 50% 100%, 0 84%, 0 0, 50% 0, 100% 0);*/
+    /*background-color: #000000;*/
+    /*opacity: 50%;*/
+}
+
+.we-create-responsive__header-text {
+    width: 980px;
+    font-family: FuturaBT;
+    color: #ffffff;
+    font-size: 52px;
+    text-align: center;
+    padding-top: 8em;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+
+.section-navbar {
+    position: absolute;
+    width: 100%;
+    top: 32px;
+    left: auto;
+    height: 110px;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.section-navbar__header-text {
+    display: inline-block;
+}
+
+.section-navbar__menu {
+    display: inline-block;
+
+}
+
+.section-navbar__header-text {
+    color: #424f57;
+    font-size: 36px;
+    font-weight: 300;
+    padding-top: 1em;
+    padding-left: 6em;
+}
+
+.section-navbar__header-text-second-part {
+    color: #14afca;
+    font-size: 36px;
+    font-weight: 900;
+
+}
+
+.section-navbar__menu {
+    padding-left: 8em;
+}
+
+.section-navbar__item {
+    font-family: OpenSans, sans-serif;
+    color: #3e4b4e;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 3em;
+    display: inline;
+}
+
+.section-navbar__item:hover {
+    color: #14afca;
+}
+
