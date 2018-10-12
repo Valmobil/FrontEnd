@@ -14,6 +14,7 @@
 .section-common {
     position: relative;
     width: 100%;
+    text-align: center;
 }
 
 .background-image {
@@ -32,24 +33,21 @@
     opacity: 0.6;
 }
 
-.section-we-create-responsive__image {
-    height: 780px;
-    background-image: url("../img/bg1.jpg");
-    clip-path: polygon(100% 84%, 50% 100%, 0 84%, 0 0, 50% 0, 100% 0);
-    /*clip-path: polygon(100% 84%, 50% 100%, 0 84%, 0 0, 50% 16%, 100% 0);*/
-}
-
-
+/*We create responcive section*/
 .section-we-create-responsive {
     height: 780px;
-    /*clip-path: polygon(100% 84%, 50% 100%, 0 84%, 0 0, 50% 0, 100% 0);*/
-    /*background-color: #000000;*/
-    /*opacity: 50%;*/
+}
+
+.section-we-create-responsive__image {
+height: 100%;
+background-image: url("../img/bg1.jpg");
+clip-path: polygon(100% 84%, 50% 100%, 0 84%, 0 0, 50% 0, 100% 0);
+/*clip-path: polygon(100% 84%, 50% 100%, 0 84%, 0 0, 50% 16%, 100% 0);*/
 }
 
 .we-create-responsive__header-text {
     width: 980px;
-    font-family: FuturaBT;
+    font-family: FuturaBT sans-serif;
     color: #ffffff;
     font-size: 52px;
     text-align: center;
@@ -58,12 +56,10 @@
     text-transform: uppercase;
 }
 
-
 .section-navbar {
     position: absolute;
     width: 100%;
     top: 32px;
-    left: auto;
     height: 110px;
     background-color: #fff;
     z-index: 1;
