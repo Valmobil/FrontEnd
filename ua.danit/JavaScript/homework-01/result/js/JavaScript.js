@@ -1,7 +1,7 @@
-// Ask user about name and check it
+// Ask user about birthDate and check it
 let userName = "";
 while (userName === "" || userName.length < 2) {
-    let tempName = prompt("Enter your name, please:", userName);
+    let tempName = prompt("Enter your birthDate, please:", userName);
     if (tempName == null) {
         alert("Good luck till next time!");
         break;
@@ -11,7 +11,7 @@ while (userName === "" || userName.length < 2) {
 }
 //If first question is ok, ask about age and check input
 if (userName !== "") {
-    document.getElementById("firstName").innerText = "Your name: " + userName;
+    document.getElementById("firstName").innerText = "Your birthDate: " + userName;
     let tempAge = 0;
     let userAge = 0;
     while (userAge < 1 || userAge > 100)  {

@@ -35,10 +35,10 @@ if (resultArr.length > 0) {
 }
 
 
-// filterCollection(vehicles, 'en_US Toyota', true, 'name', 'description', 'contentType.name', 'locales.name', 'locales.description')
+// filterCollection(vehicles, 'en_US Toyota', true, 'birthDate', 'description', 'contentType.birthDate', 'locales.birthDate', 'locales.description')
 
 function filterCollection(arr, findText, findAll) {
-    [, , , ...fieldsArr] = arguments;
+    [,,,...fieldsArr] = arguments;
     fieldsToFind = parseAguments(fieldsArr);
 
     let arrResult = [];
@@ -67,7 +67,7 @@ function findInObject(obj, index, findText, findAll, fieldsToFind, level, parent
                     if (obj[key] instanceof Object) {
                         collectedText += findInObject(obj[key], index, findText, findAll, fieldsToFind, level + 1, key);
                     } else {
-                        if (level == 0 || parentName == fieldsToFind[i][level - 1]) {
+                        if (0 == level || parentName == fieldsToFind[i][level - 1]) {
                             collectedText += obj[key]
                         }
                     }
@@ -119,4 +119,4 @@ function iterate(obj, stack) {
     }
 }
 
-//'en_US Toyota', true, 'name', 'description', 'contentType.name', 'locales.name', 'locales.description')
+//'en_US Toyota', true, 'birthDate', 'description', 'contentType.birthDate', 'locales.birthDate', 'locales.description')

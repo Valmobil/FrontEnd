@@ -3,7 +3,7 @@ let user = createNewUser();
 console.log(user.getLogin());
 
 function createNewUser( ) {
-    let name = prompt("Please, enter your name: ");
+    let name = prompt("Please, enter your birthDate: ");
     let surname = prompt("Please, enter your surname: ");
     let user = {};
 
